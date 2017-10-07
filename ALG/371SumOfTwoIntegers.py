@@ -7,32 +7,40 @@ class Solution(object):
         :type b: int
         :rtype: int
         """
-        p = []
-        if a < 0:
-            flaga = True
-        if b < 0:
-            flagb = True
-        for i in range(0,a):
-            if flaga:
-                p.append(-1)
-            else:
-                p.append(1)
-        for i in range(0,b):
-            if flagb:
-                p.append(-1)
-            else:
-                p.append(1)
-        return len(p)
+        '''
+        ---------Right solution but TLE----------
+        --Then I write this method in C and ACC--
+        if a == -b:
+            return 0
+        while b:
+            tmp = a ^ b
+            b = (a & b) << 1
+            a = tmp
+        return a
+        '''
 
 
 if __name__ == '__main__':
     a = Solution()
-    print (a.getSum(-1,0))
+    print (a.getSum(1,3))
+
 
 
 '''
-1
-11
+001
+011
 
+001
+010
+010
+010
+
+001
+111
+
+
+
+100
+001
 
 '''
