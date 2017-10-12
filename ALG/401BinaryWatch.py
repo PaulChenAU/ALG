@@ -3,7 +3,7 @@
 '''
 
 Good Solution from Stefan
-
+up
 '''
 class Solution(object):
     def readBinaryWatch(self, num):
