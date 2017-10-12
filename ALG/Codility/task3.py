@@ -4,6 +4,10 @@
 
 Find the Bug
 
+unfinished find binary circle
+
+find the bugs
+
 '''
 def solution(n):
     d = [0] * 30
