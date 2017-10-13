@@ -15,3 +15,9 @@ class Solution(object):
 if __name__ == '__main__':
     a = Solution()
     print (a.hammingDistance(0,0))
+
+'''
+not x equals x is None or s == 0
+
+
+'''
