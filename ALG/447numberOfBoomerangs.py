@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 # __author__=''
-from math import sqrt
 class Solution(object):
     def numberOfBoomerangs(self, points):
         ans = 0
