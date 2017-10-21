@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# __author__='me'
+# __author__=''
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """
