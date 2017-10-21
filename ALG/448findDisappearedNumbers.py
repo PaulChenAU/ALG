@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 # __author__='c'
+#why push failed?
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """
