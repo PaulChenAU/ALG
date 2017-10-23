@@ -4,7 +4,7 @@ class Solution(object):
     def findRelativeRanks(self, nums):
         """
         :type nums: List[int]
-        :rtype: List[str]
+        :rtype: List[str] ..
         """
         num = sorted(nums,reverse=True)
         mylist = ["Gold Medal", "Silver Medal", "Bronze Medal"]+[str(i) for i in range(4,len(num)+1)]
