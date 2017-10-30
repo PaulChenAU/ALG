@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# __author__=''
+# __author__='paulchen'
 class Solution(object):
     def nextGreaterElement(self, findNums, nums):
         """
