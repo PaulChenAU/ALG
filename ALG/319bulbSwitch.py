@@ -1,23 +1,13 @@
 # -*- coding:utf-8 -*-
 # __author__=''
+import math
 class Solution(object):
     def bulbSwitch(self, n):
         """
         :type n: int
         :rtype: int
         """
-        if n == 0:
-            return 0
-        num = 1
-        count = 3
-        pcount = 3
-        for i in range(1,n+1):
-            if pcount == 0:
-                count += 2
-                pcount = count
-                num += 1
-            pcount = pcount - 1
-        return num
+        return int(math.sqrt(n))
 
 
 if __name__ == '__main__':
